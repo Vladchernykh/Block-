@@ -1,0 +1,13 @@
+#include <math.h>
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int Ax,Bx,Ay,By;
+    cin >> Ax >> Bx >> Ay >> By;
+    double cosC =(Ax*Bx+Ay*By)/(sqrt(pow(Ax,2)+pow(Ay,2))*sqrt(pow(Bx,2)+pow(By,2)));
+    cout << cos(cosC);
+    return 0;
+    
+}
