@@ -1,0 +1,82 @@
+#include <math.h>
+#include <iostream>
+#include <stdio.h>
+
+ using namespace std;
+
+ 
+int
+main ()
+{
+  
+int a;
+cin >> a;
+    int b=a*2;
+    int c=b*2;
+    int d=c*2;
+    int e=d*2;
+    int f=e*2;
+    int g=f*2;
+    int h=g*2;
+    int i=h*2;
+    int j=i*2;
+    int k=j*2;
+    int l=k*2;
+    int m=l*2;
+    int n=m*2;
+    int o=n*2;
+    int p=o*2;
+    int q=p*2;
+    int r=q*2;
+    int s=r*2;
+    int t=s*2;
+    int u=t*2;
+    int v=u*2;
+    int w=v*2;
+    int x=w*2;
+    int y=x*2;
+    int z=y*2;
+    int aa=z*2;
+    int ab=aa*2; 
+    int ac=ab*2;
+    int ad=ac*2;
+    int ae=ad*2;
+    int af=ae*2;
+    int ag=af*2;
+    int ah=ag*2;
+    int ai=ah*2;
+    int aj=ai*2;
+    int ak=aj*2;
+    int al=ak*2;
+    int am=al*2;
+    int an=am*2;
+    int ao=an*2;
+    int ap=ao*2;
+    int aq=ap*2;
+    int ar=aq*2;
+    int as=ar*2;
+    int at=as*2;
+    int au=at*2;
+    int av=au*2;
+    int aw=av*2;
+    int ax=aw*2;
+    int ay=ax*2;
+    int az=ay*2;
+    int ba=az*2;
+    int bb=ba*2;
+    int bc=bb*2;
+    int bd=bc*2;
+    int be=bd*2;
+    int bf=be*2;
+    int bg=bf*2;
+    int bh=bg*2;
+    int bi=bh*2;
+    int bj=bi*2;
+    int KAKMNOGOBYKV=a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z+aa+ab+ac+ad+ae+af+ag+ah+ai+aj+ak+al+am+an+ao+ap+aq+ar+as+at+au+av+aw+ax+ay+az+ba+bb+bc+bd+be+bf+bg+bh+bi+bj;
+    
+    
+    cout << KAKMNOGOBYKV;
+ return 0;
+
+ 
+}
