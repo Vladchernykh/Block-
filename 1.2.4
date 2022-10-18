@@ -1,13 +1,13 @@
-#include <math.h>
-#include <iostream>
+#include <math.h> //ввод математической библиотеки для возведения в степень
+#include <iostream> //какая-то библиотека для программирования
 
-using namespace std;
+using namespace std; ////импорт всего пространства имен std
 
-int main(){
-    int Ax,Bx,Ay,By;
-    cin >> Ax >> Bx >> Ay >> By;
-    double cosC =(Ax*Bx+Ay*By)/(sqrt(pow(Ax,2)+pow(Ay,2))*sqrt(pow(Bx,2)+pow(By,2)));
-    cout << cos(cosC);
-    return 0;
+int main(){ //главная функция main ()
+    int Ax,Bx,Ay,By; //даются 4 числа
+    cin >> Ax >> Bx >> Ay >> By; //ввод этих чисел
+    double cosC =(Ax*Bx+Ay*By)/(sqrt(pow(Ax,2)+pow(Ay,2))*sqrt(pow(Bx,2)+pow(By,2))); //double делает число не целым,а с числами после запятых,sqrt-возведения в корень,pow-возведение в степерь
+    cout << cos(cosC); //вывод числа с функцией косинуса
+    return 0; //выход из функции с выводом
     
 }
