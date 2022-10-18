@@ -1,0 +1,18 @@
+#include <math.h>
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+ 
+int
+main ()
+{
+    unsigned long long int sumRice = 1, riceOnCurrentBlock = 1;
+    for(int i = 1; i <= 64; i++) {
+        riceOnCurrentBlock *= 2;
+        sumRice += riceOnCurrentBlock; // sumRice = sumRice + riceOnCurrentBlock;
+    }
+    cout << sumRice;
+     return 0;
+}
