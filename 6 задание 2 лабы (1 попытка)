@@ -1,21 +1,21 @@
-#include <math.h>
-#include <iostream>
-#include <stdio.h>
+#include <iostream> //подключение библиотеки
 
- using namespace std;
+
+
+ using namespace std; //импорт всего пространства имен std
 
  
 int
-main ()
+main () //главная функция main ()
 {
   
-unsigned long long int a;
-cin >> a;
-unsigned long long     int b=a*2;
-unsigned long long     int c=b*2;
-unsigned long long     int d=c*2;
-unsigned long long     int e=d*2;
-unsigned long long     int f=e*2;
+unsigned long long int a; //дано число а
+cin >> a; //ввод числа a который по условию равен 1 
+unsigned long long     int b=a*2; //умножение
+unsigned long long     int c=b*2; //умножение.
+unsigned long long     int d=c*2; //умножение..
+unsigned long long     int e=d*2; //умножение...
+unsigned long long     int f=e*2; //умножение и т.д,где числа заданы так что они могут быть большими
 unsigned long long     int g=f*2;
 unsigned long long     int h=g*2;
 unsigned long long     int i=h*2;
@@ -76,11 +76,11 @@ unsigned long long     int bk=bj*2;
 unsigned long long     int bl=bk*2;
 unsigned long long     int bm=bl*2;
 unsigned long long     int bn=bm*2;
-    unsigned long long int KAKMNOGOBYKV=a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z+aa+ab+ac+ad+ae+af+ag+ah+ai+aj+ak+al+am+an+ao+ap+aq+ar+as+at+au+av+aw+ax+ay+az+ba+bb+bc+bd+be+bf+bg+bh+bi+bj+bk+bm+bl+bn;
+    unsigned long long int KAKMNOGOBYKV=a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z+aa+ab+ac+ad+ae+af+ag+ah+ai+aj+ak+al+am+an+ao+ap+aq+ar+as+at+au+av+aw+ax+ay+az+ba+bb+bc+bd+be+bf+bg+bh+bi+bj+bk+bm+bl+bn; //сумма всех чисел
     
     
-    cout << KAKMNOGOBYKV;
- return 0;
+    cout << KAKMNOGOBYKV; //вывод суммы
+ return 0; //выход из функции с выводом
 
  
 }
